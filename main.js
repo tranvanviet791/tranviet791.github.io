@@ -1,4 +1,4 @@
-var socket = io('http://localhost:3000');
+var socket = io('https://mypeer791.herokuapp.com/');
 $('#div-chat').hide();
 socket.on('danh-sach-online', arrUserInfo => {
     $('#div-chat').show(2000);
